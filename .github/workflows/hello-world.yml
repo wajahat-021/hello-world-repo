@@ -4,7 +4,7 @@ on: push
 
 jobs:
     first_job:
-        runs_on: ubuntu-lates
+        runs_on: ubuntu-latest
 
         steps:
             - name: Echo text
