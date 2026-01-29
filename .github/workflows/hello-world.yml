@@ -1,1 +1,11 @@
+name: Hello World
 
+on: push
+
+jobs:
+    first_job:
+        runs_on: ubuntu-lates
+
+        steps:
+            - name: Echo text
+              run: echo "Hello, world!"
